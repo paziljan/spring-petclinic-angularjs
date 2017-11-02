@@ -19,7 +19,7 @@
             <directory>${project.build.directory}/classes/public</directory>
             <outputDirectory>/</outputDirectory>
             <includes>
-                <include>*</include>
+                <include>**/*</include>
             </includes>
         </fileSet>
         <fileSet>
