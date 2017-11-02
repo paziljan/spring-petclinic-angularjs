@@ -1,10 +1,1 @@
-'use strict';
-
-angular.module('vetList')
-    .controller('VetListController', ['$http', function ($http) {
-        var self = this;
-
-        $http.get('vets').then(function (resp) {
-            self.vetList = resp.data;
-        });
-    }]);
+"use strict";angular.module("vetList").controller("VetListController",["$http",function(t){var e=this;t.get("http://ec2-54-87-132-138.compute-1.amazonaws.com:8080/vets").then(function(t){e.vetList=t.data})}]);
