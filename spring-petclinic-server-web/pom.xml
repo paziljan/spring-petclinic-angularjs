@@ -13,6 +13,7 @@
 
 	<properties>
 		<docker.image.prefix>arey</docker.image.prefix>
+		<start-class>org.springframework.samples.petclinic.PetClinicApplication</start-class>
 	</properties>
 
 	<dependencies>
